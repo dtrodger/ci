@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 from flask.ext.script import Manager, Server
 
-# Create and configure our Flask application
-
 from app import app
 manager = Manager(app)
 
