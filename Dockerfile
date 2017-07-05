@@ -1,6 +1,6 @@
-FROM python:2.7-slim
+FROM ubuntu:latest
 
 WORKDIR /app
 COPY . /app
 
-CMD [ "bash", "test.sh" ]
+CMD [ "./test.sh" ]
