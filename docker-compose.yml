@@ -1,7 +1,8 @@
 workspace:
   build: .
   volumes:
-    - .:/workspace
+    - .:/app
   ports:
-     - '5000:5000'
+     - '5002:5002'
   tty: true
+  
